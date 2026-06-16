@@ -12,7 +12,10 @@ function createGrid(size) {
         container.appendChild(div);
         
         div.addEventListener('mouseover', () => {
-            div.classList.add('hovered');
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;    
         });
     }
 }
