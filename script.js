@@ -8,7 +8,7 @@ function createGrid(size) {
 
         div.style.width = `calc(100% / ${size})`;
         div.style.height = `calc(100% / ${size})`;
-        
+
         container.appendChild(div);
         
         div.addEventListener('mouseover', () => {
