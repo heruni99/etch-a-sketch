@@ -6,6 +6,9 @@ function createGrid(size) {
         const div = document.createElement('div');
         div.classList.add('square');
         container.appendChild(div);
+        div.addEventListener('mouseover', () => {
+            div.classList.add('hovered');
+        });
     }
 }
 
