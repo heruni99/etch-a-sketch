@@ -2,10 +2,15 @@ const container = document.querySelector('.container');
 const clearBtn = document.querySelector('#clear');
 
 function createGrid(size) {
-    for (let i = 0; i < 16 * 16; i++) {
+    for (let i = 0; i < size * size; i++) {
         const div = document.createElement('div');
         div.classList.add('square');
+
+        div.style.width = `calc(100% / ${size})`;
+        div.style.height = `calc(100% / ${size})`;
+        
         container.appendChild(div);
+        
         div.addEventListener('mouseover', () => {
             div.classList.add('hovered');
         });
