@@ -3,7 +3,7 @@
 A browser-based, interactive digital sketchpad built as part of The Odin Project's Foundations curriculum. This project demonstrates dynamic DOM manipulation, event listening, and flexible layouts using CSS Flexbox.
 
 ## 🚀 Live Demo
-👉 [Click here to play the live demo!](YOUR_GITHUB_PAGES_LINK_GOES_HERE)
+👉 [https://heruni99.github.io/etch-a-sketch/]
 
 ## ✨ Features
 * **Dynamic Grid Generation:** Starts with a standard 16x16 grid, but allows the user to resize up to a 100x100 grid using a built-in validation prompt.
