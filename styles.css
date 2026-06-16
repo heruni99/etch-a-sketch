@@ -17,3 +17,12 @@
    border: 1px solid #333;
 }
 
+#clear {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
